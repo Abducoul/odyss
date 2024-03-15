@@ -1,0 +1,88 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Betclic Group.
+    url: "https://betclicgroup.com/"
+    location: Bordeaux, France
+    # company overview
+    overview: Betclic is one of the European leaders in sports betting and online games
+  positions:
+  - designation: Site Reliability Engineer
+    start: April 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Provide expertise to DEV teams for all infrastructurerelated topics.
+    - Assist my tribes on the design of new features and their implementation in the Betclic infrastructure.
+    - Apply the production standards and ensure that each new feature is “Production Ready”
+    - Test / Release / Deploy to ensure compliance with production standards
+    - Build the infrastructure needed for new services in Infra As Code
+    - Assist my tribe in the "You build it, you run it" by implementing the necessary tools and monitoring
+
+- company:
+    name: SmartTrade Technologies.
+    url: "https://smart-trade.net/"
+    location: Aix En Provence, France
+    overview: smartTrade Technologies is a leading global provider of multi-asset electronic trading platforms, helping banks, brokers, buy side institutions, and corporates worldwide to achieve business growth through our cost-efficient, technologically advanced secure private SaaS end-to-end solution.
+  positions:
+  - designation: DevOps Engineer
+    start: October 2019
+    end: April 2022
+    responsibilities:
+    - Rebuild automation tools (Chef and OpsUI) infrastructure to meet high availability requirements
+    - Rebuild Clients infrastructure to meet high availability requirements
+    - Ensure new clients onboarding to smartTrade's infrastructure (Network Xco to application deployment)
+    - Participate to DevOps team L3 support
+    - Participate to the "on call"
+
+- company:
+    name: Hub4IT (YAWIZE)
+    url: "https://www.yawize.com/"
+    location: Dakar, Sénégal
+    overview: Yawize offer a full range of services to help customers take full advantage of the power of the Now platform, and benefit from its direct impact on the performance of their business.
+  positions:
+  - designation: Software Engineer
+    start: June 2018
+    end: August 2018
+    responsibilities:
+    - Backend development
+    - Write well-designed, testable code
+
+- company:
+    name: Africare
+    url: "https://www.facebook.com/AfricareSenegal/"
+    location: Dakar, Sénégal
+    overview: American NGO
+  positions:
+  - designation: Software Engineer
+    start: October 2017
+    end: April 2018
+    responsibilities:
+    - Workflow implementation (sharepoint)
+    - Web App development (html, php, sql)
+
+- company:
+    name: BCA Consulting Group
+    url: "https://www.goafricaonline.com/sn/592287-bca-consulting-group-fiscal-expertise-comptable-dakar-senegal"
+    location: Dakar, Sénégal
+    overview: BCA Consulting Group, est un Cabinet d’expertises spécialisé dans l’audit, le conseil, et l’assistance en matière fiscale, le conseil et l’assistance en matière juridique
+  positions:
+  - designation: Network and System Engineer
+    start: December 2015
+    end: September 2017
+    responsibilities:
+    - Web app development (wordpress)
+    - Network deployment
+    - Domain controller implementation in open sources environment
+    - File share server implementation in open sources environment

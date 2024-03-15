@@ -1,10 +1,21 @@
-# Configuration options:
-# https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#about-the-dependabotyml-file
+# Update dependencies
 
 version: 2
-
 updates:
-    - package-ecosystem: "github-actions"
-      directory: "/"
-      schedule:
-        interval: "weekly"
+# Update the git submodules
+- package-ecosystem: "gitsubmodule"
+  directory: "/"
+  schedule:
+    interval: "daily"
+  labels:
+  - "dependencies"
+  - "automerge"
+
+# Update the Github Action  versions
+- package-ecosystem: "github-actions"
+  directory: "/"
+  schedule:
+    interval: "daily"
+  labels:
+  - "dependencies"
+  - "automerge"
