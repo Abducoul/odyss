@@ -1,5 +1,5 @@
-module github.com/Abducoul/hugo-toha.github.io
+module YOUR_MODULE_NAME
 
-go 1.19
+go 1.21.7
 
-require github.com/hugo-toha/toha/v4 v4.0.0-20230127171959-e5fcc95e8b8d // indirect
+require github.com/StefMa/hugo-fresh v1.0.0 // indirect
