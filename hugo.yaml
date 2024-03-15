@@ -38,28 +38,28 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Manage. Deploy.
+    title: Travaux de jardinage
     # Hero subtitle (optional)
-    subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
+    subtitle: Offrez à vos bénéficiaires un espace extérieur fonctionnel et agréable.
     # Button text
-    buttontext: Get started
+    buttontext: Devis
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from static/images/___)
-    image: illustrations/worker.svg
+    image: illustrations/jardin.jpeg
     # Footer logos (from static/images/logos/clients/*.svg)
     # urls are optional
-    clientlogos:
-    - logo: systek
-      url: https://google.com
-    - logo: tribe
-      url: https://stefma.github.io/hugo-fresh/
-    - logo: kromo
-      url: https://github.com/StefMa/hugo-fresh
-    - logo: infinite
-      url: https://hugo-fresh.vercel.app/
-    - logo: gutwork
-      url: https://bulma.io/
+    # clientlogos:
+    # - logo: systek
+    #   url: https://google.com
+    # - logo: tribe
+    #   url: https://stefma.github.io/hugo-fresh/
+    # - logo: kromo
+    #   url: https://github.com/StefMa/hugo-fresh
+    # - logo: infinite
+    #   url: https://hugo-fresh.vercel.app/
+    # - logo: gutwork
+    #   url: https://bulma.io/
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Features
